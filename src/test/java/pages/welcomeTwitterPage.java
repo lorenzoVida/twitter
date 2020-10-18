@@ -13,11 +13,14 @@ public class welcomeTwitterPage extends base {
     By menssageWelcome = By.linkText("Únete a Twitter hoy mismo.");
     By btnLogin = By.linkText("Iniciar sesión");
 
-    public void login(){
+    public void Press_btnLogin(){
         click(btnLogin);
     }
+
+
     public void validarCarguePagina(){
         getText(menssageWelcome);
     }
+
 
 }

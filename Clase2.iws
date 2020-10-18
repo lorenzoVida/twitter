@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1d2a062-e0a6-4f6c-a993-3a5e58c76633" name="Default Changelist" comment="" />
+    <list default="true" id="e1d2a062-e0a6-4f6c-a993-3a5e58c76633" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Clase2.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/Clase2.ipr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Clase2.iws" beforeDir="false" afterPath="$PROJECT_DIR$/Clase2.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/loginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/loginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/welcomeTwitterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/welcomeTwitterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/loginTwitter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/loginTwitter.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -174,6 +180,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HierarchyBrowserManager">
     <option name="SHOW_PACKAGES" value="false" />
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -256,14 +265,14 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.5500459" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.loginTwitter">
+  <component name="RunManager" selected="TestNG.loginTwitter (1)">
     <configuration selected="false" default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -291,6 +300,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="loginTwitter (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Clase2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.loginTwitter" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="loginTwitter" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Clase2" />
       <extension name="coverage">
@@ -302,6 +328,24 @@
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.loginTwitter" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="loginTwitter.twitterLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Clase2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.loginTwitter" />
+      <option name="METHOD_NAME" value="twitterLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -327,6 +371,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.loginTwitter (1)" />
+        <item itemvalue="TestNG.loginTwitter.twitterLogin" />
         <item itemvalue="TestNG.loginTwitter" />
         <item itemvalue="TestNG.welcomeTwitterPage" />
       </list>
@@ -435,29 +481,33 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603007067800" />
-    <state width="1323" height="86" key="GridCell.Tab.0.bottom" timestamp="1603014777507">
+    <state width="1323" height="214" key="GridCell.Tab.0.bottom" timestamp="1603024474795">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="86" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603014777507" />
-    <state width="1323" height="86" key="GridCell.Tab.0.center" timestamp="1603014777507">
+    <state width="1323" height="214" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603024474795" />
+    <state width="1323" height="214" key="GridCell.Tab.0.center" timestamp="1603024474795">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="86" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1603014777507" />
-    <state width="1323" height="86" key="GridCell.Tab.0.left" timestamp="1603014777507">
+    <state width="1323" height="214" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1603024474795" />
+    <state width="1323" height="214" key="GridCell.Tab.0.left" timestamp="1603024474795">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="86" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1603014777507" />
-    <state width="1323" height="86" key="GridCell.Tab.0.right" timestamp="1603014777507">
+    <state width="1323" height="214" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1603024474795" />
+    <state width="1323" height="214" key="GridCell.Tab.0.right" timestamp="1603024474795">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="86" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1603014777507" />
-    <state x="23" y="7" width="1298" height="712" key="SettingsEditor" timestamp="1602977420524">
+    <state width="1323" height="214" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1603024474795" />
+    <state x="23" y="7" width="1298" height="712" key="SettingsEditor" timestamp="1603022599350">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="23" y="7" width="1298" height="712" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1602977420524" />
+    <state x="23" y="7" width="1298" height="712" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1603022599350" />
     <state x="387" y="256" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1602972349358">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="387" y="256" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.728@0.0.1366.728" timestamp="1602972349358" />
+    <state x="694" y="113" width="672" height="678" key="search.everywhere.popup" timestamp="1603023082880">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="694" y="113" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1603023082880" />
   </component>
 </project>

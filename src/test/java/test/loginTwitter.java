@@ -1,9 +1,9 @@
 package test;
 
 import org.openqa.selenium.WebDriver;
-import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+import pages.loginPage;
 import pages.welcomeTwitterPage;
 
 public class loginTwitter {
@@ -13,6 +13,7 @@ public class loginTwitter {
     String WELCOME_MESSAGE;
     private WebDriver driver;
     welcomeTwitterPage welcome;
+    loginPage login;
 
 
 
@@ -24,13 +25,18 @@ public class loginTwitter {
     }
 
     @Test
-    public void confirmLoadPage(){
+    public void confirmLoadPage() throws InterruptedException {
+        //Validamos
      //   WELCOME_MESSAGE = welcome.validarCarguePagina();
-        Assert.assertEquals("","");
+        //Assert.assertEquals("","");
+        welcome.Press_btnLogin();
+        Thread.sleep(2000);
     }
-    @Test
+
+    @Test(dependsOnMethods = { "confirmLoadPage" })
     public  void twitterLogin(){
-        
+        login = new loginPage(driver);
+        login.writeUser();
     }
 
 }
