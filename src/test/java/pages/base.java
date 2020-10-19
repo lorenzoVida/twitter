@@ -18,7 +18,7 @@ public class base {
     }
 
     /* WebDriverManager es una herramienta estable que ayuda a manegar los problemas
-       del versionamiento de los navegadores, se agrega la dependencia en el POM */
+       del versionamientos de los navegadores, se agrega la dependencia en el POM */
     public WebDriver chromeDriverConnection(){
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();

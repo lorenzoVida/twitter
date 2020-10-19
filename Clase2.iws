@@ -23,13 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1d2a062-e0a6-4f6c-a993-3a5e58c76633" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/dashboardPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Clase2.iws" beforeDir="false" afterPath="$PROJECT_DIR$/Clase2.iws" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/base.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/loginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/loginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/loginTwitter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/loginTwitter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/loginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/loginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/loginTwitter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/loginTwitter.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
