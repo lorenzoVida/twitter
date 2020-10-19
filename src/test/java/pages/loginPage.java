@@ -5,21 +5,25 @@ import org.openqa.selenium.WebDriver;
 
 public class loginPage extends base{
 
+    String USER="lorenkaya@hotmail.com";
+    String PASSWORD="KayaNow86";
+
     public loginPage(WebDriver driver){
         super(driver);
 
     }
 
-        By txtUserLogin = By.xpath("//body/div[@id='react-root']/div[1]/div[1]/div[2]/main[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[1]/label[1]/div[1]/div[2]/div[1]/input[1]");
-        By txyPasswordLogin = By.xpath("//body/div[@id='react-root']/div[1]/div[1]/div[2]/main[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[2]/label[1]/div[1]/div[2]/div[1]/input[1]");
-        By btnLogin = By.xpath("//body/div[@id='react-root']/div[1]/div[1]/div[2]/main[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[3]/div[1]/div[1]");
+    By txtUserLogin = By.cssSelector("input[name*='session[username_or_email]']");
+    By txyPasswordLogin = By.cssSelector("input[name*='session[password]']");
+    By btnLogin = By.cssSelector("div[data-testid='LoginForm_Login_Button']");
+
 
         public void writeUser(){
-            type("USER",txtUserLogin);
+            type(USER,txtUserLogin);
         }
 
         public void writePassword(){
-            type("PASS",txyPasswordLogin);
+            type(PASSWORD,txyPasswordLogin);
         }
 
         public void PressbtnLogin(){

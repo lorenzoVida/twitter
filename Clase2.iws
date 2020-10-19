@@ -3,13 +3,33 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e1d2a062-e0a6-4f6c-a993-3a5e58c76633" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Clase2.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/Clase2.ipr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/dashboardPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Clase2.iws" beforeDir="false" afterPath="$PROJECT_DIR$/Clase2.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/base.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/loginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/loginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/welcomeTwitterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/welcomeTwitterPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/test/loginTwitter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/loginTwitter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/loginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/loginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/loginTwitter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/loginTwitter.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -261,7 +281,7 @@
     <property name="Repository.Attach.JavaDocs" value="true" />
     <property name="Repository.Attach.Sources" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/DATA1114584660/WorkSpaceIntellij/EjemploMavenPOM" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.5500459" />
@@ -271,8 +291,11 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="pages" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pages" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.loginTwitter (1)">
+  <component name="RunManager" selected="TestNG.loginTwitter">
     <configuration selected="false" default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -334,6 +357,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="loginTwitter.loginEnterPassword" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Clase2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.loginTwitter" />
+      <option name="METHOD_NAME" value="loginEnterPassword" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="loginTwitter.twitterLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Clase2" />
       <extension name="coverage">
@@ -371,9 +412,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.loginTwitter" />
+        <item itemvalue="TestNG.loginTwitter.loginEnterPassword" />
         <item itemvalue="TestNG.loginTwitter (1)" />
         <item itemvalue="TestNG.loginTwitter.twitterLogin" />
-        <item itemvalue="TestNG.loginTwitter" />
         <item itemvalue="TestNG.welcomeTwitterPage" />
       </list>
     </recent_temporary>
@@ -419,6 +461,17 @@
       <flatten-packages value="false" />
       <is-autoscroll-to-source value="true" />
     </todo-panel>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VssConfiguration">
     <CheckoutOptions>
@@ -477,26 +530,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="466" y="233" width="433" height="268" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1603010789909" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1603007067800">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1603116939694">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603007067800" />
-    <state width="1323" height="214" key="GridCell.Tab.0.bottom" timestamp="1603024474795">
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603116939694" />
+    <state width="1323" height="229" key="GridCell.Tab.0.bottom" timestamp="1603119741579">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603024474795" />
-    <state width="1323" height="214" key="GridCell.Tab.0.center" timestamp="1603024474795">
+    <state width="1323" height="229" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1603119741579" />
+    <state width="1323" height="229" key="GridCell.Tab.0.center" timestamp="1603119741579">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1603024474795" />
-    <state width="1323" height="214" key="GridCell.Tab.0.left" timestamp="1603024474795">
+    <state width="1323" height="229" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1603119741579" />
+    <state width="1323" height="229" key="GridCell.Tab.0.left" timestamp="1603119741578">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1603024474795" />
-    <state width="1323" height="214" key="GridCell.Tab.0.right" timestamp="1603024474795">
+    <state width="1323" height="229" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1603119741578" />
+    <state width="1323" height="229" key="GridCell.Tab.0.right" timestamp="1603119741579">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="214" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1603024474795" />
+    <state width="1323" height="229" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1603119741579" />
     <state x="23" y="7" width="1298" height="712" key="SettingsEditor" timestamp="1603022599350">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -505,9 +558,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="387" y="256" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.728@0.0.1366.728" timestamp="1602972349358" />
-    <state x="694" y="113" width="672" height="678" key="search.everywhere.popup" timestamp="1603023082880">
+    <state x="694" y="113" width="672" height="678" key="search.everywhere.popup" timestamp="1603058187522">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="694" y="113" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1603023082880" />
+    <state x="694" y="113" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1603058187522" />
   </component>
 </project>

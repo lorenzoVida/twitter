@@ -2,6 +2,7 @@ package pages;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -21,6 +22,7 @@ public class base {
     public WebDriver chromeDriverConnection(){
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
+        driver.manage().window().maximize();
         return driver;
     }
 
@@ -55,6 +57,12 @@ public class base {
             return false;
         }
     }
+
+    public void enter(By locator)
+    {
+        driver.findElement(locator).sendKeys(Keys.ENTER);
+    }
+
 
     public void visit(String url){
         driver.get(url);
